@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { User } from './auth-form/models/auth-form.interface';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularpro2';
+
+
+
 }

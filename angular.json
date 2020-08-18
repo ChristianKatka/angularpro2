@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angularpro2"
+    }
+  },
+  "defaultProject": "angularpro2",
+  "cli": {
+    "analytics": false
+  }
 }
