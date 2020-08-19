@@ -5,7 +5,7 @@ import { Directive, HostListener, HostBinding } from '@angular/core';
 
 @Directive({
   // have to use attribute selector [] se we can bind it to template like this; <input credit-card>
-  selector: '[credit-card]',
+  selector: '[credit-card]'
 })
 export class CreditCardDirective {
   // add property or change property to host

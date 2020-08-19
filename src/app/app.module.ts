@@ -7,19 +7,16 @@ import { AppComponent } from './app.component';
 
 // My modules
 import { AuthFormModule } from './auth-form/auth-form.module';
-import { AuthForm2Module } from './auth-form2/auth-form2.module';
-
-// My directives
-import { CreditCardDirective } from './credit-card/credit-card.directive';
+import { ThirdModule } from './third/third.module';
 
 @NgModule({
-  declarations: [AppComponent, CreditCardDirective],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     AuthFormModule,
-    AuthForm2Module,
+    ThirdModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
