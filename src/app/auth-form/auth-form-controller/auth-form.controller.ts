@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { User } from '../models/auth-form.interface';
+import { User } from '../../models/auth-form.interface';
 
 @Component({
     selector: 'auth-form-controller',

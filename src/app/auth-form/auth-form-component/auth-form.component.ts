@@ -11,7 +11,7 @@ import {
   ChangeDetectorRef,
   ElementRef
 } from '@angular/core';
-import { User } from '../models/auth-form.interface';
+import { User } from '../../models/auth-form.interface';
 import { AuthRememberComponent } from './auth-remember.component';
 import { AuthMessageComponent } from './auth-message.component';
 
