@@ -10,8 +10,12 @@ import { TooltipDirective } from './tooltip/tooltip.directive';
 import { CreditCardDirective } from './credit-card/credit-card.directive';
 import { MyForDirective } from './my-for/my-for.directive';
 
+// Pipes
+import { FileSizePipe } from './pipe/filesize.pipe';
+
 //components
 import { MyForComponent } from './my-for/my-for.component';
+import { FilePipeComponent } from './filepipe/filepipe.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +24,8 @@ import { MyForComponent } from './my-for/my-for.component';
     CreditCardDirective,
     MyForDirective,
     MyForComponent,
+    FileSizePipe,
+    FilePipeComponent,
   ],
   imports: [CommonModule, FormsModule],
   exports: [
@@ -28,6 +34,8 @@ import { MyForComponent } from './my-for/my-for.component';
     CreditCardDirective,
     MyForDirective,
     MyForComponent,
+    FileSizePipe,
+    FilePipeComponent,
   ],
   providers: [],
 })
