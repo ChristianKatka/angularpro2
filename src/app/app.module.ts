@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 // My modules
 import { AuthFormModule } from './auth-form/auth-form.module';
 import { ThirdModule } from './third/third.module';
+import { StockInventoryModule } from './stock-inventory/stock-inventory.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,6 +18,7 @@ import { ThirdModule } from './third/third.module';
     FormsModule,
     AuthFormModule,
     ThirdModule,
+    StockInventoryModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
